@@ -228,6 +228,16 @@ The DID document cannot be deleted/revoked from the chain.
 
 The information about the status is in progess and will be updated once it is completed.
 
+
+
+## Security Considerations
+
+We only store DID documents on-chain. The user's DID document is generated locally, and the presentation method is used to prove its legitimacy based on the BBS+ signature method. Therefore, users can only operate on their own DID documents.
+
+## Privacy Considerations
+
+When the user registers, he needs to use SMS to verify the authenticity of his mobile phone number, but when generating the Presentation, the mobile phone number will be mapped to sha256 hash using the hash function. This process not only ensures the convenience of the user during use, but also prevents the leakage of the user's private information.
+
 ### References
 
 1. Decentralized Identifiers (DIDs) v0.11 https://w3c-ccg.github.io/did-spec
