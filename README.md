@@ -27,7 +27,10 @@ Example of CoTNetwork DID Document:
     ],
     "id":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH","controller":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH",
     "verificationMethod":[{
-      "id":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH#owner","type":"Bls12381G2Key2020","controller":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH","publicKeyBase58":"nrYbjHKpmUHbDfwbco7Sn637t1YjoMVqzKjzSGwicLmfybMSYbyRMffGeUE3H9jNAjcMXrN5SK8Rc9KxKSCVCVRPcWH2A6EwrWrkt7tRzqwLwhD3uF3tvAA8UWg8yQzTYif"
+      "id":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH#owner",
+      "type":"Bls12381G2Key2020",
+      "controller":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH",
+      "publicKeyBase58":"nrYbjHKpmUHbDfwbco7Sn637t1YjoMVqzKjzSGwicLmfybMSYbyRMffGeUE3H9jNAjcMXrN5SK8Rc9KxKSCVCVRPcWH2A6EwrWrkt7tRzqwLwhD3uF3tvAA8UWg8yQzTYif"
     }
   ]
 }
