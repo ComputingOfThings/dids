@@ -25,7 +25,8 @@ Example of CoTNetwork DID Document:
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/bls12381-2020/v1"
     ],
-    "id":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH","controller":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH",
+    "id":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH",
+    "controller":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH",
     "verificationMethod":[{
       "id":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH#owner",
       "type":"Bls12381G2Key2020",
