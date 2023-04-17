@@ -21,23 +21,13 @@ Example of CoTNetwork DID Document:
 
 ```json
 {
-  "@context": [
+  "@context":[
     "https://www.w3.org/ns/did/v1",
     "https://w3id.org/security/suites/bls12381-2020/v1"
-  ],
-  "id": "did:cot:HSk6tA4V1uiSQhSyEdiUTU1ivoCfJMiEgPHE2raWzji",
-  "controller": "did:cot:HSk6tA4V1uiSQhSyEdiUTU1ivoCfJMiEgPHE2raWzji",
-  "verificationMethod": [
-    {
-      "id": "did:cot:HSk6tA4V1uiSQhSyEdiUTU1ivoCfJMiEgPHE2raWzji#owner",
-      "type": "JsonWebKey2020",
-      "controller": "",
-      "publicKeyBase58": "26sdnDwGRsJeykbYv3dmebJLovv5yxW1yKEp3WsrisCPrJwgndi1FN2hXaWGZAXwzRk3zuWK49qYgEN1PpoK6WHXk2xWUg64gtuLotYJioTW2tp4oHf46ALCp2MSGhxKxTcf",
-      "publicKeyJwk": {
-        "kty": "EC",
-        "crv": "BLS12381_G2",
-        "x": "uWve_qibHqH2C5UG4v8mK2xO7SwrTX1hhx96gwqFl1MwBGg7coDrp4kmletDVj7tGByk4GfV_v6EePHjlKlMT1uySsppcMLbb9pRtHKTm2YlOLrD1BMnShib5F42YVFU"
-      }
+    ],
+    "id":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH","controller":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH",
+    "verificationMethod":[{
+      "id":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH#owner","type":"Bls12381G2Key2020","controller":"did:cot:EhXSR8W1fLJnhaYQ3g8BLcszVsDorBs6NV7YfBe4rWgH","publicKeyBase58":"nrYbjHKpmUHbDfwbco7Sn637t1YjoMVqzKjzSGwicLmfybMSYbyRMffGeUE3H9jNAjcMXrN5SK8Rc9KxKSCVCVRPcWH2A6EwrWrkt7tRzqwLwhD3uF3tvAA8UWg8yQzTYif"
     }
   ]
 }
@@ -97,7 +87,7 @@ Users use [UniWa](https://ssis.cotnetwork.com) to create/register an entity in t
         },
         "nonce": "07890",
         "type": [
-          "UniWaUserInformation"
+          "CoTNetworkIdentity"
         ]
       }
     }
